@@ -1,0 +1,15 @@
+[
+    {
+        "prenom": "Mario",
+        "nom": "Vieilledent",
+        "age": 22,
+        "fan de gaming": false
+    },
+    {
+        "prenom": "Mario",
+        "nom": "Vieilledent",
+        "age": 22,
+        "fan de gaming": false,
+        "language": ["23, 24, 25", 2, false, [420]]
+    }
+]
