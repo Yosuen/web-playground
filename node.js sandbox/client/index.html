@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>calculatrice</title>
+</head>
+
+<body style="background-color:rgb(38, 38, 38);">
+    <div class="container">
+        <div class="calculatrice">
+            <div class="screen">
+                <span id="result">
+                    
+                </span>
+            </div>
+            <div class="line">
+                <button onclick="addBuffer(7)">7</button>
+                <button onclick="addBuffer(8)">8</button>
+                <button onclick="addBuffer(9)">9</button>
+                <button onclick="addBuffer('+')">+</button>
+            </div>
+            <div class="line">
+                <button onclick="addBuffer(4)">4</button>
+                <button onclick="addBuffer(5)">5</button>
+                <button onclick="addBuffer(6)">6</button>
+                <button onclick="addBuffer('-')">-</button>
+            </div>
+            <div class="line">
+                <button onclick="addBuffer(1)">1</button>
+                <button onclick="addBuffer(2)">2</button>
+                <button onclick="addBuffer(3)">3</button>
+                <button onclick="addBuffer('*')">*</button>
+
+            </div>
+            <div class="line">
+                <button onclick="addBuffer(0)">0</button>
+                <button>.</button>
+                <button onclick="fillBuffer()">Total</button>
+                <button onclick="addBuffer('/')">/</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
